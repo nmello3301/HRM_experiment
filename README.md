@@ -1,7 +1,5 @@
 # Hierarchical Reasoning Models (HRM) — Thesis Plan & Experiments
 
-**Owner:** You  
-**Target GPU:** Single RTX 4090 (24 GB VRAM)  
 **Focus:** Compare **flat** vs **hierarchical** controllers on multi‑step tasks, including tool use, with small/medium OSS models you can run locally (7B–16B; 32B distilled/quantized optional).
 
 ## Problem Statement (1‑page)
