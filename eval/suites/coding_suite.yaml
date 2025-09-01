@@ -1,0 +1,23 @@
+tasks:
+- id: sum_first_n
+  prompt: Write a program that reads an integer n and prints the sum of integers from
+    1 to n.
+  oracle:
+    stdin: '3
+
+      '
+    expect_substr: '6'
+- id: reverse_string
+  prompt: Write a program that reads a line from stdin and prints the reversed string.
+  oracle:
+    stdin: 'hello
+
+      '
+    expect_substr: olleh
+- id: fibonacci_n
+  prompt: Read integer n and print the nth Fibonacci number (F1=1,F2=1).
+  oracle:
+    stdin: '7
+
+      '
+    expect_substr: '13'

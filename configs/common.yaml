@@ -1,0 +1,4 @@
+backend: ollama
+max_iters: 3
+model: llama3.1:8b-instruct-q4_K_M
+temperature: 0.2

@@ -1,0 +1,15 @@
+tasks:
+- id: two_step_arith
+  prompt: "Compute (a+b)^2 \u2212 (a\u2212b)^2 for given integers a,b read from stdin."
+  oracle:
+    stdin: '3 1
+
+      '
+    expect_substr: '12'
+- id: triangle_area
+  prompt: Given base and height (floats) on one line, print triangle area with 2 decimals.
+  oracle:
+    stdin: '3 4
+
+      '
+    expect_substr: '6.00'
